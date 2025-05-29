@@ -11,7 +11,7 @@ public class Main {
         }
     }
 
-    // Метод, який заповнює масив з обробкою винятку
+
     public static void fillArray(int[] array) {
         for (int i = 0; i < array.length; i++) {
             try {
@@ -23,7 +23,7 @@ public class Main {
         }
     }
 
-    // Метод, який читає число з клавіатури
+
     public static int readNumber() throws NegativeNumberException {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Wprowadź liczbę: ");
@@ -35,7 +35,7 @@ public class Main {
     }
 }
 
-// Клас власного винятку
+
 class NegativeNumberException extends Exception {
     public NegativeNumberException(String message) {
         super(message);
